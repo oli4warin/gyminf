@@ -9,16 +9,15 @@ def vieleck(n,seite):
 makeTurtle()
 hideTurtle()
 
-seite=40
 repeat 6:
-    vieleck(4,seite)
+    vieleck(4,40)
     left(360/6)
 right(90)
-forward(seite)
+forward(40)
 left(90)
 
 repeat 6:
-    vieleck(6,seite)
+    vieleck(6,40)
     left(360/12)
-    vieleck(4,seite)
+    vieleck(4,40)
     left(360/12)
