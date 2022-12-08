@@ -58,7 +58,7 @@ def fillCenterRectangle(width, height,color):
 def europeFlag(width):
     height=2/3*width
     fillCenterRectangle(width,height,"blue")
-    ringOfStars(12,width/20z3,"yellow",0.7*height/2)
+    ringOfStars(12,width/20,"yellow",0.7*height/2)
     
         
 makeTurtle()
