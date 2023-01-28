@@ -59,6 +59,5 @@ def clock():
         hourHand(currentTime.hour)
         secondsHand(currentTime.second)
         delay(20)
-        clear()
 
 clock()
