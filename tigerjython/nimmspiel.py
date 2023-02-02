@@ -1,4 +1,3 @@
-
 from gturtle import *
 
 def hoelzchen():
@@ -45,12 +44,10 @@ def spiel():
     name2=str(input("Wie heisst Spieler:in 2?"))
     while n>0:
         reihe(n)
-        n = zug(name1,n)
-        if gewonnen(name1,n):
-            return name1
-        n = zug(name2,n)
-        if gewonnen(name2,n):
-            return name2
+        for player in [name1, name2]:
+            n = zug(player,n)
+            if gewonnen(player,n):
+                return player
 
 makeTurtle()
 hideTurtle()
