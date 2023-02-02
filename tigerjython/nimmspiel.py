@@ -10,6 +10,9 @@ def hoelzchen():
     penUp()
     backward(100)
     penDown()
+    
+def space(length):
+    setX(getX()+length)
 
 def reihe(n):
     setX(-600)
@@ -17,11 +20,7 @@ def reihe(n):
     clear("black")
     repeat n:
         hoelzchen()
-        penUp()
-        right(90)
-        forward(40)
-        left(90)
-        penDown()
+        space(40)
 
         
 def zug(spieler,n):
