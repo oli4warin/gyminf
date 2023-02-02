@@ -1,4 +1,4 @@
-﻿
+
 from gturtle import *
 
 def hoelzchen():
@@ -36,17 +36,11 @@ def zug(spieler,n):
 
 def gewonnen(spieler,n):
         if n==0:
-            msgDlg(spieler+" hat gewonnen.")
+            msgDlg(spieler + " hat gewonnen.")
             return True
         return False
     
 def spiel():
-    penUp()
-    left(90)
-    forward(200)
-    right(90)
-    forward(150)
-    penDown()
     n=input("Mit wie vielen Hölzchen soll gespielt werden?")
     name1=str(input("Wie heisst Spieler:in 1?"))
     name2=str(input("Wie heisst Spieler:in 2?"))
