@@ -1,13 +1,13 @@
 .scale {
-		animation-name: scale-anim;
-		animation-duration: 1s;
-		animation-fill-mode: both;
-		animation-direction: alternate;
-  animation-iteration-count: infinite;
-		animation-timing-function: ease-in-out;
+								animation-name: scale-anim;
+								animation-duration: 1s;
+								animation-fill-mode: both;
+								animation-direction: alternate;
+								animation-iteration-count: infinite;
+								animation-timing-function: ease-in-out;
 }
 
 @keyframes scale-anim {
-  from { font-size: normal; }
-  to { font-size: xx-large; }
+								from { font-size: normal; }
+								to { font-size: xx-large; }
 }
