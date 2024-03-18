@@ -9,11 +9,7 @@
 }
 
  @keyframes scale-anim {
-     from {
-													scale: 1;
-    }
-     to {
-													scale: 3;
-    }
+     from { scale: 1; }
+     to { scale: 3; }
 }
  
