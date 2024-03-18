@@ -1,6 +1,7 @@
-div {
-		position: relative;
+.blue-to-red {
 		color: blue;
+		font-size: xx-large;
+		position: relative;
 		animation-name: blue-to-red;
 		animation-duration: 5s;
 		animation-delay: 3s;
