@@ -1,0 +1,8 @@
+.spread {
+		position: absolute;
+  transition: all 1s ease-in-out;
+}
+
+.spread:hover {
+  rotate: 90deg;
+}
