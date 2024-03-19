@@ -1,10 +1,10 @@
 .scale {
-     animation: scale-anim 0.5s both alternate infinite ease-in-out;
-					transform-origin: 0 0;
+ animation: scale-anim 0.5s both alternate infinite ease-in-out;
+ transform-origin: 0 0;
 }
 
- @keyframes scale-anim {
-     from { scale: 1; }
-     to { scale: 3;}
+@keyframes scale-anim {
+ from { scale: 1; }
+ to { scale: 3;}
 }
- 
+
