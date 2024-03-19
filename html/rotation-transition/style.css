@@ -1,8 +1,8 @@
-.spread {
+.rotate {
   position: absolute;
   transition: all 1s ease-in-out;
 }
 
-.spread:hover {
+.rotate:hover {
   rotate: 90deg;
 }
