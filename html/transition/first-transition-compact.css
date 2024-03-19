@@ -1,0 +1,6 @@
+.spread {
+  transition: all 1s ease-in-out;
+}
+.spread:hover {
+  letter-spacing: 1rem;
+}
