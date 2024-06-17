@@ -1,0 +1,16 @@
+.img-center {
+	text-align: center;
+}
+
+.img-center > img {
+	width: 70%;
+}
+
+.round-img {
+	border-radius: 25px;
+	transition: all 0.5s ease-in-out;
+}
+
+.round-img:hover {
+border-radius: 0%;
+}
