@@ -4,6 +4,8 @@
 
 .img-center > img {
 	width: 70%;
+	border: 5px solid black;
+	padding: 2px;
 }
 
 .round-img {
