@@ -16,7 +16,7 @@
      text-decoration: none;
      color: white;
 }
- .navbar > li > a:hover {
+ .navbar > li > a:hover, .navbar > li > a:focus {
      background-color: #ddd;
      color: black;
 }
