@@ -5,9 +5,9 @@
 					\fill[black!90] (\x,\y) rectangle +(1,1);
 					\fill[black!90,shift={(1,1)}] (\x,\y) rectangle +(1,1);
 				}
-			\foreach \x/\n in {1/A,2/B,3/C,4/D,5/E,6/F,7/G,8/H} {
-					\node[shift={(-0.5,-0.5)}] at (\x,0) {\small \n};
-					\node[shift={(-0.5,8.5)}] at (\x,0) {\small \n};
+				\foreach[count=\x] \n in {A,...,H} {
+					\node[shift={(-0.5,-0.5)}] at (\x,0) {\small \n};	
+					\node[shift={(-0.5,8.5)}] at (\x,0) {\small \n};	
 					\node[shift={(-0.5,-0.5)}] at (0,\x) {\small \x};
 					\node[shift={(8.5,-0.5)}] at (0,\x) {\small \x};
 				}
