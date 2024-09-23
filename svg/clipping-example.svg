@@ -1,0 +1,7 @@
+<svg>
+    <clipPath id="clip-circle">
+      <rect x=0 y=0 width=70 height=30 />
+    </clipPath>
+    <circle cx=50 cy=50 r=50 opacity=0.5 fill=blue
+    clip-path="url(#clip-circle)"/>
+</svg>
