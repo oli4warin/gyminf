@@ -1,6 +1,6 @@
-<svg height=155>
+<svg>
     <path 
         d="M 0 2 l 50 0 l 0 50 l 50 0 l 0 50 l 50 0 l 0 50 l 50 0"
         fill="none" stroke="brown" stroke-width="5"
-     />
+    />
 </svg>
