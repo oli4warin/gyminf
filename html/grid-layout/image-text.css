@@ -9,9 +9,10 @@
 .text-next-to-img > .text {
   border: 1px solid lightgray;
   padding: 1rem 2rem;
-		font-size: large;
+  font-size: large;
 }
 
 /* Macht dass das Bild die Breite des Containers annimmt. */
 .text-next-to-img > img {
   width: 100%;
+}
