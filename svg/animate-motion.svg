@@ -2,7 +2,7 @@
     <path id="circle-motion" d="M 50 50 l 200 0 Z" stroke="black" />
     <circle r="50" stroke="red" fill=none>
       <animateMotion dur="5s" repeatCount="indefinite">
-        <mpath xlink:href="#circle-motion"/>
+        <mpath href="#circle-motion"/>
       </animateMotion>
     </circle>
 </svg>

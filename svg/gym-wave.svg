@@ -9,7 +9,7 @@
     <text text-anchor="middle">
     Gymnasium Muttenz
         <animateMotion dur="5s" repeatCount="indefinite" rotate="auto">
-        <mpath xlink:href="#wave"/>
-        />
+        	<mpath href="#wave"/>
+				</animateMotion>
     </text>
 </svg>
