@@ -16,5 +16,3 @@ for index in range(len(color_list)):
     rainbow = pin(bottom_center,compose(circular_sector(radius_list[index],180,color_list[index]),rainbow))
 
 show_graphic(rainbow)
-
-

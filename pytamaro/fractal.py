@@ -25,4 +25,3 @@ def fractal(size: float):
         )
 
 show_graphic(fractal(500));
-

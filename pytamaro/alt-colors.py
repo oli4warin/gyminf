@@ -11,4 +11,3 @@ for diameter in range(10,150,10):
 
 
 show_graphic(my_graphic)
-

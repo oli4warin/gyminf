@@ -6,5 +6,3 @@ for diameter in range(10,150,10):
     my_graphic = beside(my_graphic, ellipse(diameter,diameter,blue))
 
 show_graphic(my_graphic)
-
-
