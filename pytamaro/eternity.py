@@ -1,0 +1,2 @@
+def eternity(): 
+    return eternity()
