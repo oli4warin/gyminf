@@ -7,35 +7,35 @@ def tall():
 
 save_graphic(
         "../../../images/pytamaro-compose-example1.svg",
-        compose(
-            pin(top_left, wide()),
-            pin(top_left, tall()),
-        )
+compose(
+    pin(top_left, wide()),
+    pin(top_left, tall()),
+)
 )
 
 
 save_graphic(
         "../../../images/pytamaro-compose-example2.svg",
-        compose(
-            pin(top_left, wide()),
-            pin(top_right, tall()),
-        )
+compose(
+    pin(top_left, wide()),
+    pin(top_right, tall()),
+)
 )
 
 save_graphic(
         "../../../images/pytamaro-compose-example3.svg",
-        compose(
-            pin(bottom_right, wide()),
-            pin(top_center, tall()),
-        )
+compose(
+    pin(bottom_right, wide()),
+    pin(top_center, tall()),
+)
 )
 
 save_graphic(
         "../../../images/pytamaro-compose-example4.svg",
-        compose(
-            pin(top_right, wide()),
-            pin(center_left, tall()),
-        )
+compose(
+    pin(top_right, wide()),
+    pin(center_left, tall()),
+)
 )
 
 

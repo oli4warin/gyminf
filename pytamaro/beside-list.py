@@ -1,4 +1,4 @@
-from pytamaro import beside,empty_graphic, Graphic
+from pytamaro import beside, empty_graphic, Graphic
 
 def beside_list(graphic_list: list[Graphic]) -> Graphic:
     result=empty_graphic()
