@@ -6,5 +6,3 @@ def count(a: list):
         return 0
     else:
         return 1+count(a[:-1])
-
-print(count([1,2,3,4]))
