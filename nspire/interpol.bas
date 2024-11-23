@@ -1,6 +1,6 @@
-Define LibPub interpol(xlist,ylist)=
+Define LibPub interpol(xl,yl)=
 Func
 Local n
-	n:=dim(xlist)
-	Return sum(seq(lagrange(xlist,i)*ylist[i],i,1,n))
+	n:=dim(xl)
+	Return sum(seq(lagrange(xl,i)*yl[i],i,1,n))
 EndFunc
