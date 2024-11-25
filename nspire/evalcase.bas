@@ -6,7 +6,7 @@ n:=dim(fl)
 		Return fl[1]|x=xval
 	EndIf
 	For i,2,n
-		If xval≥xl[i-1] and xval<xl[i] Then
+		If xval>=xl[i-1] and xval<xl[i] Then
 			Return fl[i-1]|x=xval
 		EndIf
 	EndFor
