@@ -1,5 +1,2 @@
-def wide():
-    return rectangle(200, 80, blue)
-
-def tall():
-    return rectangle(80, 200, green)
+wide = rectangle(200, 80, blue)
+tall = rectangle(80, 200, green)
