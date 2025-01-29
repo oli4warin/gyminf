@@ -1,4 +1,4 @@
-from pytamaro import circular_sector, yellow, rotate, show_graphic, save_graphic
+from pytamaro import circular_sector, yellow, rotate, show_graphic
 
 show_graphic(
     rotate(
