@@ -98,7 +98,7 @@ save_graphic("../../../images/pytamaro-pin-raute.svg",
 save_graphic("../../../images/pytamaro-pin-circular-sector.svg", 
 						pin(center,
 							rotate(210,
-								circular_sector(100,120,cyan)
+								circular_sector(50,120,cyan)
 								)
 							),
              True
