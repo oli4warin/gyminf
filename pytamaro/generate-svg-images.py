@@ -1,9 +1,5 @@
 from pytamaro import *
 
-def svg(filename,graphic):
-    save_graphic("../../../images/"+filename+".svg",graphic,True)
-)
-    
 
 def wide():
     return rectangle(200, 80, blue)
