@@ -3,7 +3,7 @@ from pytamaro import ellipse, triangle, blue, magenta, pin, compose, show_graphi
 compose(
         pin(
             top_center,
-            triangle(100, 100, 60, blue)
+            triangle(100, 100, 60, green)
             ),
         ellipse(50,50,magenta)
 )

@@ -74,11 +74,11 @@ save_graphic(
 )
 
 
-save_graphic("../../../images/pytamaro-pincompose-triangle.svg", triangle(100,100,60,red), True)
-save_graphic("../../../images/pytamaro-pincompose-triangle-pin.svg", pin(top_center,triangle(100,100,60,red)), True)
+save_graphic("../../../images/pytamaro-pincompose-triangle.svg", triangle(100,100,60,green), True)
+save_graphic("../../../images/pytamaro-pincompose-triangle-pin.svg", pin(top_center,triangle(100,100,60,green)), True)
 save_graphic("../../../images/pytamaro-pincompose-circle.svg", ellipse(50,50,magenta), True)
-save_graphic("../../../images/pytamaro-pincompose-composed.svg", compose( pin(top_center,triangle(100, 100, 60, red)), ellipse(50,50,magenta)), True)
-save_graphic("../../../images/pytamaro-pincompose-example.svg", compose( pin(top_center,triangle(100, 100, 60, red)), ellipse(50,50,magenta)))
+save_graphic("../../../images/pytamaro-pincompose-composed.svg", compose( pin(top_center,triangle(100, 100, 60, green)), ellipse(50,50,magenta)), True)
+save_graphic("../../../images/pytamaro-pincompose-example.svg", compose( pin(top_center,triangle(100, 100, 60,green)), ellipse(50,50,magenta)))
 
 save_graphic("../../../images/pytamaro-pin-rectangle.svg", rectangle(200,100,red),True)
 save_graphic("../../../images/pytamaro-pin-ellipse.svg", ellipse(200,100,red),True)
@@ -95,13 +95,34 @@ save_graphic("../../../images/pytamaro-pin-raute.svg",
              True
              )
 
-save_graphic("../../../images/pytamaro-circular-sector.svg", 
+save_graphic("../../../images/pytamaro-pin-circular-sector.svg", 
 						pin(center,
 							rotate(210,
-								circular_sector(200,120,cyan)
+								circular_sector(100,120,cyan)
 								)
 							),
              True
              )
 
 
+save_graphic("../../../images/pytamaro-pin-sol-rectangle.svg", 
+					rotate(180,
+						pin(bottom_center,
+							rotate(30,
+								rectangle(100, 100, green)
+							)
+						)
+					),
+             True
+             )
+
+
+
+save_graphic("../../../images/pytamaro-pin-sol-ellipse.svg", 
+					pin(bottom_center,
+						rotate(30,
+							ellipse(200, 100, green)
+						)
+					),
+             True
+             )
