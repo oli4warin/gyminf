@@ -81,7 +81,7 @@ save_graphic("../../../images/pytamaro-pincompose-composed.svg", compose( pin(to
 save_graphic("../../../images/pytamaro-pincompose-example.svg", compose( pin(top_center,triangle(100, 100, 60,green)), ellipse(50,50,magenta)))
 
 save_graphic("../../../images/pytamaro-pin-rectangle.svg", rectangle(200,100,red),True)
-save_graphic("../../../images/pytamaro-pin-ellipse.svg", ellipse(200,100,red),True)
+save_graphic("../../../images/pytamaro-pin-ellipse.svg", pin(bottom_left,ellipse(200,100,red)),True)
 save_graphic("../../../images/pytamaro-pin-triangle.svg", triangle(200,100,90,red),True)
 save_graphic("../../../images/pytamaro-pin-triangle.svg", triangle(200,100,90,red),True)
 save_graphic("../../../images/pytamaro-pin-text.svg", text("Gym","Roboto",100,red),True)
